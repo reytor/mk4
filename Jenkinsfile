@@ -22,8 +22,7 @@ pipeline {
     stage('Push Registry') {
       steps {
             echo 'Push Registring...... now have credentials'
-
-             sh 'docker pull shoggun/app:stable'
+           sh 'docker pull shoggun/app:stable'
       }
     }
   }
